@@ -13,6 +13,10 @@
     <groupId>org.example</groupId>
     <artifactId>RestApi</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+    <modules>
+        <module>Calculator</module>
+    </modules>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
